@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'OPENAITOKEN'
 
 completion = openai.Completion()
 
@@ -39,4 +39,4 @@ async def l(ctx, *, question):
 
 
 client.run(
-  'MTA2NzI4NTMyNTE0MDk4Mzg2OA.Gqweb9.acYnLu7lnvFJv1g78qy-fX5r_2lHUy0fQwNDOc')
+  'BOTTOKEN')
